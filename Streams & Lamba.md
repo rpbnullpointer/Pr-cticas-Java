@@ -17,7 +17,7 @@
 Interfaces con un único método a definir. Existen 4: ``Predicate<T>, Supplier<T>, Consumer<T>, Function<T>``
 
 * ``Predicate<T>``
-  * Valida criterios. Caso: ``(String s) -> s.length >10
+  * Valida criterios. Caso: ``(String s) -> s.length >10``
   * Define el método ``+test(T):boolean``
 * ``Supplier<T>``
   * Crea objetos. Caso: ``() -> new ArrayList()``
